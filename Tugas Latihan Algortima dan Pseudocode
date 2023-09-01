@@ -1,0 +1,90 @@
+1.) Cari nilai KPK dari 3 & 4
+    ALGORITMA
+		1. Tentukan dua bilangan yang akan dicari KPK nya yaitu angka 3 dan 4.
+		2. Menghitung KPK dengan menggunakan metode perkalian.
+		3. Mulai dari angka 1 dengan melakukan perulangan hingga menemukan bilangan yang dibagi habis oleh kedua bilangan.
+		4. Keluar dari perulangan begitu bilangan tersebut ditemukan.
+	PSEUDOCODE
+		x=3 
+		y=4
+		z=1
+		a=y*z
+						while a%x!=0 do
+						a=y*z
+						z=z+1
+						print(a)
+
+2.) Fungsi untuk menukar posisi dua variabel x dan y, dengan kasus : 
+		Ada 2 buah: manggis dan pisang. Manggis di piring 1, Pisang di piring 2. Piring 3 kosong.
+		ALGORITMA
+		1. Pindahkan manggis dari piring 1 ke piring 3.
+		2. Pindahkan pisang dari piring 2 ke piring 1.
+		3. Pindahkan manggis dari piring 3 ke piring 2.
+		PSEUDOCODE
+		Piring1= buah manggis.
+		Piring2= buah pisang.
+
+
+
+		Piring3= ""
+
+3.) Diketahui sebuah segitiga memiliki ukuran sebagai berikut:
+		Alas 25 Tinggi 30. Hitung luas dari segitiga tersebut.
+		ALGORITMA
+		1. Menyatakan luas, alas, dan tinggi.
+		2. Masukkan alas bernilai 25 dan tinggi 30.
+		3. Menghitung luas = alas dikali tinggi dibagi 2.
+		4. Menampilan Luas.
+		PSEUDOCODE
+		Deklarasi.
+		Variable luas, alas, tinggi. 
+		Alas= 25
+		Tinggi= 30 
+		Luas= alas*tinggi*1/2
+		Print(luas) 
+
+4.) Tentukan algoritma dan pseudocode luas jajar genjang
+    (panjang = 5, tinggi = 3) 
+		ALGORITMA 
+		1. Inisialisasi nilai panjang jajar genjang (panjang) menjadi 5.
+		2. Inisialisasi nilai tinggi jajar genjang (tinggi) menjadi 3. 
+		3. Hitung Luas jajar genjang dengan menggunakan rumus: luas = panjang * tinggi.
+		4. Tampilkan hasil luas jajar genjang.
+		PSEUDOCODE
+		panjang = 5
+		tinggi = 3
+		luas = panjang * tinggi
+		print("Luas jajar genjang:", luas)
+
+5.)	Tentukan algoritma dan pseudocode volume tabung (jari-jari = 3, tinggi = 5)
+		ALGORITMA
+		1. Inisialisasi nilai jari-jari dan tinggi tabung.
+		2. Hitung volume tabung menggunakan rumus: volume = n jari jari^2* tinggi 3. Tampilkan hasil volume tabung.
+		PSEUDOCODE
+		def hitung_volume_tabung(jari jari, tinggi): 
+				volume = 3.14 * jari jari*2 tinggi
+				return volume
+		# Langkah 1: Inisialisasi nilai jari-jari dan tinggi
+		jari jari = 3 
+		tinggi = 5
+		# Langkah 2: Menghitung volume tabung
+		volume_tabung = hitung_volume_tabung(jari jari, tinggi)
+		# Langkah 3: Menampilkan hasil
+		print("Volume tabung adalah:",volume_tabung)
+
+6.) Tentukan algoritma dan pseudocode volume kerucut (diameter = 5, tinggi = 4) 
+		ALGORITMA
+		1.Baca nilai diameter (d) dan tinggi (h) kerucut.  
+		2.Hitung jari-jari (r) kerucut dengan rumus r=d/2.
+		3.Hitung volume kerucut (V) dengan rumus V = (1/3)** r^2*h.
+		4.Tampilkan nilai volume kerucut (V).
+		PSEUDOCODE
+		# Masukkan nilai diameter dan tinggi kerucut
+		d=5
+		h=4
+		#Hitung jari-jari kerucut
+		r=d/2
+ 		#Hitung volume kerucut 
+		V = (1/3) *3.14159* r**2 * h
+		#Tampilkan nilai volume kerucut 
+		print("Volume kerucut adalah:", V)
